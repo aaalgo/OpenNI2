@@ -41,8 +41,8 @@ ALL_DRIVERS = \
 
 # list all wrappers
 ALL_WRAPPERS = \
-	Wrappers/java/OpenNI.jni \
-	Wrappers/java/OpenNI.java 
+#	Wrappers/java/OpenNI.jni \
+#	Wrappers/java/OpenNI.java 
 
 # list all tools
 ALL_TOOLS = \
@@ -86,7 +86,7 @@ endif
 
 ALL_SAMPLES = \
 	$(CORE_SAMPLES) \
-	$(JAVA_SAMPLES)
+#	$(JAVA_SAMPLES)
 
 # list all projects that are build
 ALL_BUILD_PROJS = \
